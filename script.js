@@ -361,7 +361,7 @@ function replay() {
     weapon.innerText = "What Will You Choose?";
 
     rNode = document.createElement("img");
-    rNode.src = "/images/cave-painting.png";
+    rNode.src = "images/cave-painting.png";
     rNode.classList.add("rock");
     rNode.classList.add("btn")
     rNode.setAttribute("id", "rock");
@@ -369,14 +369,14 @@ function replay() {
 
 
     pNode = document.createElement("img")
-    pNode.src = "/images/document.png";
+    pNode.src = "images/document.png";
     pNode.classList.add("paper")
     pNode.classList.add("btn")
     pNode.setAttribute("id", "paper");
 
 
     sNode = document.createElement("img")
-    sNode.src = "/images/scissors-opened-tool-shape.png";
+    sNode.src = "images/scissors-opened-tool-shape.png";
     sNode.classList.add("scissor")
     sNode.classList.add("btn")
     sNode.setAttribute("id", "scissor");
