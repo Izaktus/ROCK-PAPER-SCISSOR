@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.heading {
+    color: white;
+    font-size: 50px;
+    margin: 25px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+img {
+    height:150px;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+.weapon {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 50px;
+
+}
+
+.rock,
+.paper,
+.scissor {
+    padding: 15px;
+    transition: 0.3s ease-out;
+
+
+}
+
+.rock:hover,
+.paper:hover,
+.scissor:hover {
+    border: 3px solid white;
+    border-radius: 4px;
+
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+    margin: 100px;
+    margin-bottom:50px;
+    font-size: 40px;
+    color: white;
+}
+
+ul li {
+    margin-top: 15px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 50px;
+}
+
+.restart,.try {
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+    margin-bottom:25px;
+}
+
+.text
+{
+    color:white;
+    font-size:20px;
+    margin-bottom:25px;
+}

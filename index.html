@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper Scissors</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lacquer&family=Roboto&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <section>
+        <h1 class="heading">Rock Paper Scissors</h1>
+        <div class="weapon" id="weapon">What Will You Choose?</div>
+
+        <div class="buttons" id="buttons">
+            <img src="/images/cave-painting.png" alt="Rock" class="rock" id="rock"
+                class="btn" onclick="game0()">
+            <img src="/images/document.png" alt="Paper" class="paper" id="paper"
+                class="btn" onclick="game1()">
+            <img src="/images/scissors-opened-tool-shape.png" alt="scissor" id="scissor"
+                class="scissor" class="btn" onclick="game2()">
+        </div>
+
+        <div class="scoreBoard">
+            <h2 class="score">
+
+                <div class="user">
+                    <div class="Userscore">You</div>
+                    <ul>
+                        <li class="userScore" id="userScore">0</li>
+                    </ul>
+                </div>
+
+                <div class="comp">
+                    <div class="Comscore">Computer</div>
+                    <ul>
+                        <li class="computerScore" id="computerScore">0</li>
+                    </ul>
+                </div>
+            </div>
+                <div class="text"id="txt">First To 5 Wins!</div>
+
+            </h2>
+            <div class="trii" id="trii">
+                <button class="restart" id="restart" onclick="restart()">Reset</button>
+
+<audio class="ding" id="ding" >
+    <source  src="/sound/ding.mp3" type="audio/mpeg">
+</audio>
+<audio src="/sound/loseRound.mp3" class="lossRound" id="loseRound"></audio>
+<audio src="/sound/win.mp3" id="win"></audio>
+<audio src="/sound/lose.mp3" id="loss"></audio>
+    </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- music attributeeeeeeeeeeeeeeeeee-->
