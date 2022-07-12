@@ -79,7 +79,7 @@ function game0() {
     if (Computer_score == 5) {
         subtext.innerText=("Do you have what it takes to defeat a computer?")
         weapon = document.getElementById("weapon")
-        weapon.innerText = "Baby never loses!"
+        weapon.innerText = "You have lost!!"
         r = document.getElementById("rock")
         r.remove();
         p = document.getElementById("paper")
@@ -182,7 +182,7 @@ function game1() {
     if (Computer_score == 5) {
         subtext.innerText=("Do you have what it takes to defeat a computer?")
         weapon = document.getElementById("weapon")
-        weapon.innerText = "Baby never loses!"
+        weapon.innerText = "You have lost!!"
         r = document.getElementById("rock")
         r.remove();
         p = document.getElementById("paper")
@@ -284,7 +284,7 @@ function game2() {
     if (Computer_score == 5) {
         subtext.innerText=("Do you have what it takes to defeat a computer?")
         weapon = document.getElementById("weapon")
-        weapon.innerText = "Baby never loses!"
+        weapon.innerText = "You have lost!!"
         r = document.getElementById("rock")
         r.remove();
         p = document.getElementById("paper")
